@@ -1,0 +1,86 @@
+.profile {
+  margin-top: 50px;
+  width: 300px;
+  border: 2px solid #f97c7c;
+  border-radius: 3%;
+  background-color: #fff;
+  overflow: hidden;
+}
+
+.description {
+  width: 300px;
+}
+
+.avatar {
+  margin-top: 20px;
+  border-radius: 50%;
+  height: 150px;
+  width: 150px;
+  border: 3px dotted #ff0000;
+}
+
+.name {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  color: #ff0000;
+  font-size: 25px;
+}
+
+.tag {
+  margin-top: 0px;
+  margin-bottom: 10px;
+  color: #00ad54;
+  font-size: 16px;
+}
+
+.location {
+  margin-bottom: 20px;
+  color: #393939;
+  font-size: 16px;
+}
+
+.user-stats {
+  width: 300px;
+  display: flex;
+  background-color: #cacaca59;
+  border-top: 1px solid #7c7c7c;
+  border-bottom: 1px solid #7c7c7c;
+  align-items: center;
+}
+
+.stats {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding: 0;
+  color: #7c7c7c;
+  font-size: 20px;
+  list-style: none;
+  display: flex;
+  justify-content: space-evenly;
+  width: 300px;
+}
+
+.item {
+  display: flex;
+  flex-basis: calc(100% / 3);
+  flex-wrap: nowrap;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  gap: 5px;
+}
+
+.item-even {
+  border-right: 1px solid black;
+  border-left: 1px solid black;
+}
+
+.label {
+  font-size: 16px;
+}
+
+.quantity {
+  color: #000;
+  font-weight: bold;
+}
