@@ -1,0 +1,27 @@
+.transaction-history {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  width: 700px;
+  border-radius: 3%;
+  box-shadow: 0px 3px 5px 0px #000;
+  overflow: hidden;
+  border: 2px solid #f97c7c;
+}
+
+table th {
+  height: 60px;
+  background-color: #16b2ba;
+  color: #fff;
+}
+
+table tr:nth-child(odd) {
+  height: 35px;
+  background-color: #353a3c;
+  color: #fff;
+}
+
+table tr:nth-child(even) {
+  height: 35px;
+  background-color: #131516;
+  color: #fff;
+}
